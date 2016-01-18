@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>GitHub Portfolio</title>
+	  <link rel="stylesheet" href="css/style.css"/>
+	  <link rel="stylesheet" href="css/normalize.css"/>
+	  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+	  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bevan"/>
+	  <script src="js/jquery-2.1.4.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="entire-nav-wrap" id="top_scroll">
+      <nav class="page-nav-wrapper">
+        <ul class="nav nav-stacked">
+          <li><a href="#about_scroll">About</a></li>
+          <li class="second-child"><a href="#projects_scroll">Projects</a></li>
+          <li><a href="#contact_me_scroll">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="row-fluid">
+        <header class="page-nav col-xs-12 container">
+          <div class="logo-text-wrapper col-xs-offset-1">
+            <h1 class="name lead">Joseph Sayad</h1>
+            <i class="fa fa-caret-down hidden-xs" id="caret-one"></i>
+            <i class="fa fa-caret-up" id="caret-two"></i>
+            <i class="fa fa-bars visible-xs"> Menu</i>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <section class="page-header-content" id="about_scroll">
+        <div class="row-fluid headers">
+          <div class="col-xs-12">
+            <h1 class="hero-header">Enter the Portfolio.</h1>
+          </div>
+          <div class="col-xs-10 col-xs-offset-1">
+            <h3 class="hero-prompt lead">Place a brief, but important, excerpt about myself in this particular prompt header area. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem in, libero nihil illo dolore tenetur facere ab cumque fugit soluta rem aliquam ratione tempore, cum nobis culpa quidem officiis, odio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate numquam dolorum ex officiis.</h3>
+          </div>
+        </div>
+        <div class="row-fluid form">
+          <form action="get-info" class="btn-group-wrap col-sm-8 col-sm-offset-2 col-xs-12 container text-center">
+            <button class="btn btn-info btn-lg about-me lead">
+              <a href="http://josephsayad.github.io/about-me" target="_blank" class="about-link" role="button">More About Me</a>
+            </button>
+            <button class="btn btn-default btn-lg resume lead">Peek My Resume</button>
+          </form>
+        </div>
+      </section>    
+    </div>
+    <div class="row-fluid" id="projects_scroll">
+      <div class="col-xs-12 product-wrap">
+        <div>
+          <section class="project col-xs-10 col-xs-offset-1">
+            <div class="wrap-project-cover col-xs-12" id="karma-landing-page-clone">
+              <div class="project-info col-md-8 col-sm-10 col-xs-12 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="karma-logo" src="images/karma-logo.svg" alt="Karma" width="26"/>
+                    <h1 class="project-name" id="karma-header">Karma Landing Page Clone</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 col-xs-12">
+                    <p class="project-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo a consequuntur, ea magni voluptatum. Lorem fossum llools pants. Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="get-info" class="btn-group-wrap col-md-8 col-sm-12">
+                    <a href="https://github.com/josephsayad/fewd_landing_page_clone/tree/gh-pages" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 peek-project github lead" role="button">Github</a>
+                    <a href="https://josephsayad.github.io/fewd_landing_page_clone/index.html" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 col-xs-offset-1 peek-project chrome lead" role="button">Chrome</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div>
+          <section class="project col-xs-10 col-xs-offset-1">
+            <div class="wrap-project-cover col-xs-12" id="jquery-street-fighter">
+              <div class="project-info col-md-8 col-sm-10 col-xs-12 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="street-fighter-logo" src="images/hadouken-logo.gif" alt="Hadouken" width="70"/>
+                    <h1 class="project-name" id="fighter-header">jQuery Street Fighter</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 col-xs-12">
+                    <p class="project-brief" id="fighter-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo a consequuntur, ea magni voluptatum. Lorem fossum llools pants. Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+                <div class="row hill-fix">
+                  <form action="get-info" class="btn-group-wrap col-md-8 col-sm-12" id="fighter-btn-wrap">
+                    <a href="https://github.com/josephsayad/jquery-streetfighter/tree/gh-pages" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 peek-project github lead" role="button">Github</a>
+                    <a href="http://josephsayad.github.io/jquery-streetfighter/main.html" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 col-xs-offset-1 peek-project chrome lead" role="button">Chrome</a>
+                  </form>
+                  <img src="images/ryu.gif" alt="Ryu" class="ryu" width="400"/>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div>
+          <section class="project col-xs-10 col-xs-offset-1">
+            <div class="wrap-project-cover col-xs-12" id="shopping-list-app">
+              <div class="project-info col-md-8 col-sm-10 col-xs-12 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <i class="fa fa-shopping-cart fa-3x" id="shopping-logo"></i>
+                    <h1 class="project-name" id="shopping-list-header">Shopping List Application</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 col-xs-12">
+                    <p class="project-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo a consequuntur, ea magni voluptatum. Lorem fossum llools pants. Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="get-info" class="btn-group-wrap col-md-8 col-sm-12">
+                    <a href="https://github.com/josephsayad/shopping-list-application/tree/gh-pages" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 peek-project github lead" role="button">Github</a>
+                    <a href="http://josephsayad.github.io/shopping-list-application/" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 col-xs-offset-1 peek-project chrome lead" role="button">Chrome</a>
+                    <img src="images/notepad-icon.png" alt="NotePad" class="notepad" width="200"/>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div>
+          <section class="project col-xs-10 col-xs-offset-1">
+            <div class="wrap-project-cover col-xs-12" id="hot-or-cold-app">
+              <div class="project-info col-md-8 col-sm-10 col-xs-12 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="hot-or-cold-logo" src="images/fire-ball.png" alt="Hot Or Cold" width="50"/>
+                    <h1 class="project-name" id="hot-or-cold-header">Hot Or Cold Game</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 col-xs-12">
+                    <p class="project-brief" id="hot-or-cold-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo a consequuntur, ea magni voluptatum. Lorem fossum llools pants. Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="get-info" class="btn-group-wrap col-md-8 col-sm-12" id="hot-or-cold-btn-wrap">
+                    <a href="https://github.com/josephsayad/hot-or-cold-starter/tree/gh-pages" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 peek-project github lead" role="button">Github</a>
+                    <a href="http://josephsayad.github.io/hot-or-cold-starter/" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 col-xs-offset-1 peek-project chrome lead" role="button">Chrome</a>
+                    <img class="hot-or-cold-img" src="images/hot-or-cold.png" alt="Hot Or Cold" width="250"/>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div>
+          <section class="project col-xs-10 col-xs-offset-1">
+            <div class="wrap-project-cover col-xs-12" id="quiz-application">
+              <div class="project-info col-md-8 col-sm-10 col-xs-12 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="quiz-logo" src="images/victorian-wars.jpg" alt="Quiz" width="70"/>
+                    <h1 class="project-name" id="quiz-header">Star Wars Quiz Application</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 col-xs-12">
+                    <p class="project-brief" id="quiz-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo a consequuntur, ea magni voluptatum. Lorem fossum llools pants. Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="get-info" class="btn-group-wrap col-md-8 col-sm-12">
+                    <a href="https://github.com/josephsayad/quiz-application/tree/gh-pages" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 peek-project github lead" role="button">Github</a>
+                    <a href="http://josephsayad.github.io/quiz-application" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 col-xs-offset-1 peek-project chrome lead" role="button">Chrome</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div>
+          <section class="project col-xs-10 col-xs-offset-1">
+            <div class="wrap-project-cover col-xs-12" id="api-hack">
+              <div class="project-info col-md-8 col-sm-10 col-xs-12 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img class="api-hack-logo" src="images/tastekid-logo.png" alt="TasteKid Logo" width="60"/>
+                    <h1 class="project-name" id="api-hack-header">TasteKid API Hack</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-10 col-xs-12">
+                    <p class="project-brief" id="api-hack-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo a consequuntur, ea magni voluptatum. Lorem fossum llools pants. Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <form action="get-info" class="btn-group-wrap col-md-8 col-sm-12">
+                    <a href="https://github.com/josephsayad/API-Hack/tree/gh-pages" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 peek-project github lead" role="button">Github</a>
+                    <a href="http://josephsayad.github.io/API-Hack/" target="_blank" class="btn btn-info col-md-3 col-sm-4 col-xs-5 col-xs-offset-1 peek-project chrome lead" role="button">Chrome</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <form action="direct-to-top" class="btn-wrap col-xs-12 container text-center">
+        <div class="col-xs-12 container text-center">
+          <a href="#top_scroll">
+            <button class="col-sm-4 col-sm-offset-4 col-xs-12 btn btn-primary btn-lg btn-up">
+              <i class="fa fa-chevron-up fa-2x"></i>
+            </button>
+          </a>
+        </div>
+      </form>
+    </div>
+    <div class="row-fluid">
+      <div class="social-outlet col-xs-12" id="contact_me_scroll">
+        <div class="row">
+          <ul class="col-xs-12 contact-info container text-center">
+            <li><div class="social-icon"><i class="fa fa-envelope fa-3x"></i></div></li>
+            <li><div class="social-icon"><i class="fa fa-github-square fa-3x"></i></div></li>
+            <li><div class="social-icon"><i class="fa fa-linkedin fa-3x"></i></div></li>
+            <li><div class="social-icon"><i class="fa fa-facebook-square fa-3x"></i></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <footer class="copyright-footer col-xs-12"></footer>
+    </div>
+  </body>
+</html>

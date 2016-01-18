@@ -1,0 +1,453 @@
+html, body, div, h1, h2, h3,
+p, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: Calluna Sans; 
+  src: url('../fonts/Calluna-Sans/CallunaSansRegular.ttf');
+}
+.page-nav {
+  width: 100%;
+  height: 3.8em;
+  background-color: rgba(46, 48, 58, 0.96);
+  cursor: pointer;
+}
+.logo-text-wrapper {
+  height: 3em;
+  margin-top: 0.4em;
+  display: inline-block;
+}
+.name {
+  font-size: 1.3em !important;
+  margin-top: 0.45em !important;
+  width: 8em;
+  text-align: center;
+  font-family: 'Calluna Sans', sans-serif;
+  display: inline-block;
+  color: #ffffff;
+}
+#caret-one,
+#caret-two {
+  margin-left: -1.2em;
+  margin-top: -1em;
+  display: inline-block;
+  color: #ffffff;
+}
+#caret-two {
+  display: none;
+  margin-left: 9.49em;
+  margin-top: -2.8em;
+}
+.fa.fa-bars {
+  color: #ffffff;
+  margin-top: -2.6em;
+  margin-left: 38em;
+}
+.page-nav-wrapper {
+  background-color: #C32F34;
+  height: 11.2em;
+  padding-top: 1.5em;
+  padding-left: 10.9em;
+  display: none; 
+}
+.page-nav-wrapper > ul > li > a {
+  text-align: center;
+  width: 6em;
+  font-family: 'Calluna Sans', sans-serif;
+  list-style-type: none;
+  color: rgba(255, 255, 255, .9);
+  font-size: 1.3em;
+  cursor: pointer;
+  padding-top: 0.12em;
+  padding-bottom: 0.12em;
+  border: 2px solid transparent;
+}
+.page-nav-wrapper > ul > li > a:hover{
+  border: 2px solid rgba(46, 48, 58, 0.96);
+  border-radius: 0.3em;
+  background-color: rgba(46, 48, 58, 0.96);
+  color: #ffffff;
+}
+.page-nav-wrapper > ul > li > a:focus {
+  border: 2px solid #ffffff;
+  border-radius: 0.3em;
+  background-color: #ffffff;
+  color: rgba(46, 48, 58, 0.96);
+}
+.page-header-content {
+  height: 42em;
+  background-color: rgba(46, 48, 58, 0.95);
+}
+.hero-header {
+  font-family: 'Bevan', sans-serif;
+  color: #ffffff;
+  margin-top: 0em;
+  padding-top: 1.8em;
+  padding-bottom: 0.35em;
+  text-align: center;
+  font-size: 4em;
+}
+.hero-prompt {
+  text-align: center;
+  color: #ffffff;
+  font-family:'Book Antiqua', serif;
+  font-weight: bold;
+  margin-top: 0.3em;
+  font-size: 1.3em !important;
+}
+.btn-group-wrap {
+  margin-top: 3em !important;
+}
+.about-me, 
+.resume {
+  font-family: 'Calluna Sans', sans-serif !important;
+  width: 11.1em !important;
+}
+.about-me {
+  background-color: #ae2a2f !important;
+  border: 1px solid #9C2529 !important;
+  margin-right: 1em;
+}
+.about-me:hover{
+  background-color: #9C2529 !important;
+}
+.about-link {
+  color: #ffffff;
+}
+.about-link:hover,
+.about-link:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.product-wrap {
+  margin-top: 6.5em;
+  background-color: #ffffff;
+}
+.project {
+  height: 400px;
+  cursor: pointer;
+  opacity: 0.95;
+  margin-bottom: 4em;
+}
+.project_border {
+  height: 400px;
+  background-color: #C32F34;
+}
+.wrap-project-cover {
+  opacity: 0.98;
+  border-left: 10px solid #C32F34;
+  border-radius: 1px;
+}
+.wrap-project-cover:hover {
+  opacity: 0.95;
+  border-left: 11px solid #C32F34;
+  border-radius: 1px;
+}
+#karma-header,
+.karma-logo, 
+#fighter-header,
+.street-fighter-logo,
+#shopping-list-header,
+.shopping-logo,
+#hot-or-cold-header,
+.hot-or-cold-logo,
+#quiz-header,
+.quiz-logo,
+#api-hack-header,
+.api-hack-logo {
+  display: inline-block;
+}
+.karma-logo,
+.street-fighter-logo,
+#shopping-logo,
+.hot-or-cold-logo,
+.quiz-logo,
+.api-hack-logo {
+  margin-top: -2.5em;
+}
+#karma-landing-page-clone {  
+  background-color: #ffffff;
+  background-image: url("../images/karma-background.jpg");
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 400px;
+}
+#jquery-street-fighter {
+  background-color: #ffffff;
+  background-image: url("../images/white_brick_wall.png");
+  background-position: top left;
+  background-repeat: repeat;
+  overflow: auto; 
+  height: 400px;
+}
+#fighter-header {
+  color: #000000 !important;
+}
+#fighter-brief {
+  color: #000000 !important;
+}
+#fighter-btn-wrap > a {
+  border: 2px solid #000000 !important;
+  color: #000000;
+}
+#fighter-btn-wrap > a:hover {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  border: 2px solid #000000 !important;
+}
+.ryu {
+  margin-top: -15em;
+  margin-left: 42em;
+}
+#shopping-list-app {
+  background-color: #099;
+}
+.fa.fa-shopping-cart {
+  color: #000000;
+}
+.notepad {
+  margin-top: -12em;
+  margin-left: 45em;
+}
+#hot-or-cold-app {
+  background-color: #1F253D;
+}
+.hot-or-cold-img {
+  margin-top: -12em;
+  margin-left: 43em;
+  border-radius: 2px;
+}
+#quiz-application {
+  background-color: #ffffff;
+  background-image: url("../images/space.jpg");
+  background-position: 0 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 400px;
+}
+.quiz-logo {
+  border-radius: 0.2em;
+  box-shadow: 2px 2px 0 #ffffff;
+}
+#api-hack {
+  background-color: #2d3e50;
+}
+.project-info {
+  height: 400px;
+  padding-top: 0.5em;
+}
+.project-name {
+  text-align: center;
+  font-family: 'Calluna Sans', sans-serif;
+  color: #ffffff;
+  margin-top: 1.3em;
+  margin-left: 0.2em;
+}
+.project-brief {
+  font-family: 'Book Antiqua';
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+.peek-project {
+  text-align: center;
+  font-family: 'Calluna Sans', sans-serif;
+  color: #ffffff;
+  background-color: transparent !important;
+  border: 2px solid #ffffff !important;
+  margin-top: -1em !important;
+}
+.peek-project:hover {
+  background-color: #ffffff !important;
+  color: rgba(46, 48, 58, 0.96) !important;
+}
+.btn-wrap {
+  margin-top: 4em;
+  margin-bottom: 10em;
+}
+.btn-up,
+.btn-up:focus {
+  background-color: #C32F34 !important;
+  border: 1px solid #ae2a2f !important;
+  outline: none;
+}
+.fa.fa-chevron-up {
+  text-align: center;
+  color: #ffffff;
+}
+.social-outlet {
+  background-color: #C32F34;
+  border-top: #ae2a2f;
+  opacity: 0.96;
+  height: 32em;
+}
+.contact-header {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Calluna Sans', cursive;
+  margin-top: 2.5em;
+}
+.contact-info {
+  list-style-type: none;
+  margin-top: 11em;
+}
+.contact-info > li {
+  display: inline-block;
+}
+.social-icon {
+  background-color: rgba(46, 48, 58, 0.96);
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  cursor: pointer;
+  margin-right: 1.5em;
+}
+.fa-envelope {
+  color: #ffffff;
+  margin-top: 0.3em;
+}
+.fa-github-square {
+  color: #ffffff;
+  margin-top: 0.3em;
+}
+.fa-linkedin {
+  color: #007bb5;
+  margin-top: 0.3em;
+}
+.fa-facebook-square {
+  color: #3b5998;
+  margin-top: 0.3em;
+}
+.copyright-footer {
+  background-color: rgba(46, 48, 58, 0.96);
+  height: 3em;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1225px) {
+  .ryu,
+  .notepad,
+  .hot-or-cold-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 788px) {
+  .karma-logo, 
+  .street-fighter-logo, 
+  #shopping-logo,
+  .hot-or-cold-logo,
+  .quiz-logo,
+  .api-hack-logo {
+    display: none;  
+  }
+}
+@media only screen and (max-width: 767px) {
+  .page-header-content {
+    height: 48em;
+  }
+  .wrap-project-cover {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .hero-prompt {
+    text-align: justify !important;
+  }
+  .project-brief {
+    text-align: justify !important;
+  }
+}
+@media only screen and (max-width: 678px) {
+  .fa.fa-bars {
+    margin-left: 30em;
+  }
+  .page-header-content {
+    height: 39em;
+  }
+  .hero-header {
+    font-size: 3em;
+  }
+  .hero-prompt {
+    font-size: 1.15em !important;
+  }
+  .about-me, 
+  .resume {
+    font-size: 1em !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fa.fa-bars {
+    margin-left: 23em;
+  }
+  .project-brief {
+    display: none;
+  }
+  .peek-project {
+    width: 100% !important;
+  }
+  .github {
+    margin-top: 0.5em !important;
+  }
+  .chrome {
+    margin-top: 1.5em !important;
+    margin-left: 0em !important;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .fa.fa-bars {
+    margin-left: 20em;
+  }
+  .page-header-content {
+    height: 40em;
+  }
+  .hero-header {
+    font-size: 2.5em;
+  }
+  .hero-prompt {
+    font-size: 1em !important;
+  }
+  .about-me, 
+  .resume {
+    font-size: 1em !important;
+    width: 20em !important;
+    margin-bottom: 2.2em !important;
+    margin-top: -1em !important;
+  }
+  .about-me {
+    margin-left: 1em;
+  }
+  .project_border {
+    display: none;
+  }
+  .wrap-project-cover {
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .name {
+    font-size: 1.2em !important;
+  }
+  .fa.fa-bars {
+    margin-left: 17em;
+    font-size: 1.05 !important;
+  } 
+  .page-header-content {
+    height: 43.5em;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .contact-info > li:last-child{
+    margin-top: 2em;
+  }
+} 
