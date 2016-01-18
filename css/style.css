@@ -25,6 +25,13 @@ p, ul, li, a {
   margin-top: 0.4em;
   display: inline-block;
 }
+.profile-photo-container {
+  background-color: #000;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  display: inline-block;
+}
 .name {
   font-size: 1.3em !important;
   margin-top: 0.45em !important;
@@ -341,7 +348,7 @@ p, ul, li, a {
   cursor: pointer;
   margin-right: 1.5em;
 }
-.fa-envelope {
+.fa-google-plus-square {
   color: #ffffff;
   margin-top: 0.3em;
 }
@@ -361,7 +368,11 @@ p, ul, li, a {
   background-color: rgba(46, 48, 58, 0.96);
   height: 3em;
 }
-
+.rights {
+  font-family: 'Calluna Sans', sans-serif;
+  color: #ffffff;
+  padding-top: 0.87em;
+}
 /* Media Queries */
 
 @media only screen and (max-width: 1225px) {
