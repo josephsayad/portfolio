@@ -59,11 +59,13 @@ function animateBigNav() {
     $('.page-nav-wrapper').slideUp('slow');
     $('#caret-two').hide('fast');
     $('#caret-one').show('slow');
+    $('.profile').fadeIn('fast');
   } 
   else {
     $('.page-nav').css({'background-color':'#C32F34', 'opacity':'.95'});
     $('.page-nav-wrapper').css({'border-bottom': '1px solid rgba(255, 255, 255, .2)'});
     $('.page-nav-wrapper').slideDown('slow');
+    $('.profile').fadeOut();
   }
   // changes the value false to true and assigns it to clicks, and vice 
   // versa for each click.
@@ -78,6 +80,7 @@ function animateSmallNav() {
   var clicks = $(this).data('clicks');
   if (clicks) {
     $('.mobile-nav-wrapper').slideUp('fast');
+    $('.profile').fadeIn('fast');
   } 
   else {
     $('.mobile-nav-wrapper').slideDown('fast');
