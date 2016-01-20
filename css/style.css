@@ -250,8 +250,8 @@ p, ul, li, a {
   border: 2px solid #000000 !important;
 }
 .ryu {
-  margin-top: -15em;
-  margin-left: 42em;
+  margin-top: -16em;
+  margin-left: 43em;
 }
 #shopping-list-app {
   background-color: #099;
@@ -260,15 +260,15 @@ p, ul, li, a {
   color: #000000;
 }
 .notepad {
-  margin-top: -12em;
-  margin-left: 45em;
+  margin-top: -15em;
+  margin-left: 47em;
 }
 #hot-or-cold-app {
   background-color: #1F253D;
 }
 .hot-or-cold-img {
-  margin-top: -12em;
-  margin-left: 43em;
+  margin-top: -13.5em;
+  margin-left: 46em;
   border-radius: 2px;
 }
 #quiz-application {
