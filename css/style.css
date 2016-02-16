@@ -171,6 +171,14 @@ p, ul, li, a {
   color: #ffffff;
   text-decoration: none;
 }
+.resume-link {
+  color: #000000;
+}
+.resume-link:hover,
+.resume-link:focus {
+  color: #000000;
+  text-decoration: none;
+}
 .product-wrap {
   margin-top: 6.5em;
   background-color: #ffffff;
