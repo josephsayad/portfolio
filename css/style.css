@@ -392,17 +392,6 @@ p, ul, li, a {
 }
 /* Media Queries */
 
-@media only screen and (width: 1550px) {
-  .ryu {
-    margin-left: 54em;
-  }
-  .hot-or-cold-img {
-    margin-left: 56em;
-  }
-  .notepad {
-    margin-left: 56.9em;
-  }
-} 
 @media only screen and (max-width: 1225px) {
   .ryu,
   .notepad,
